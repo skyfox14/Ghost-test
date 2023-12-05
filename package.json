@@ -9,7 +9,10 @@
   "workspaces": [
     "ghost/*",
     "apps/*"
-  ],
+  ]
+  "engines": {
+    "node": "18.12.1"
+  }
   "monorepo": {
     "public": false,
     "internalPackages": true,
